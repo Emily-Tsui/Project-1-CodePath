@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pencil {
+  height: 75px;
+}
+
+.website-title {
+  font-family: "Playfair", 'Times New Roman', Times, serif;
+  
+}
+
+/* Gallery of cards */
+.gallery { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  border: 3px solid black;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  max-height: 100px;
+  padding: 0 0 50px 0;
+}
+
+button {
+  margin-top: 2px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.1em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus {
+  outline: 4px auto -webkit-focus-ring-color;
+}
